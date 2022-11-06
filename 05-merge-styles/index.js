@@ -1,8 +1,6 @@
 const fs = require('fs')
 const path = require('path')
 
-fs.cre
-
 let stylesDir = path.join(__dirname, 'styles')
 fs.readdir(stylesDir, (err, files) => {
   if (err) throw err
